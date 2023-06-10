@@ -10,7 +10,7 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #0b011a;
+    background: linear-gradient(#2C3333,#171717) ;
 }
 .container
 {
@@ -32,11 +32,11 @@ body
     bottom: 30px;
     width: 35px;
     height: 30px;
-    background: #F7FD04;
-    box-shadow: 0 0 0 10px #F9B208,
-    0 0 50px #F7FD04,
-    -100px 0 #F7FD0499,
-    100px 0 #37E2D5;
+    background: #B3005E;
+    box-shadow: 0 0 0 10px #E90064,
+    0 0 50px #B3005E,
+    -100px 0 #E9006499,
+    100px 0 #FF5F9E;
     margin: 0 4px;
     border-radius: 50%;
     animation: animate 15s ease infinite;
@@ -44,11 +44,11 @@ body
 }
 .particles span:nth-child(even)
 {
-    background: #C70A80;
-    box-shadow: 0 0 0 10px #C70A8099,
-    0 0 50px #C70A80,
-    -100px 0 #59069699,
-    100px 0 #59069699;
+    background: #2192FF;
+    box-shadow: 0 0 0 10px #2192FF99,
+    0 0 50px #38E54D,
+    -100px 0 #9CFF2E99,
+    100px 0 #FDFF0099;
 }
 @keyframes animate
 {   
